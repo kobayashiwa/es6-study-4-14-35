@@ -11,7 +11,9 @@ class 親クラス {
   *******
   }
 }
+
 ↓ オーバーライド ↓
+
 class 子クラス extends 親クラス {
   constructor() {
   super()　/** 1行目にsuper()が必要
