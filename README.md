@@ -48,7 +48,7 @@ class 子クラス extends 親クラス {
 
 #### サイト構造
 - header > logo - nav/toggle
-- main > section（top-mv） - section（top-about） - section（top-service） - section（top-recruit） - section（top-recruit）
+- main > section（top-mv） - section（top-about） - section（top-service） - section（top-recruit）
 - footer
 
 #### ブレイクポイント
