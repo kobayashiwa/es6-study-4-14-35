@@ -57,7 +57,9 @@ ul, li {
 	transition: all .2s;
 }
 .in {
+	width: 100%;
 	height: 100%;
+	padding: 0 40px;
 	position: relative;
 }
 .head-logo {
@@ -65,7 +67,6 @@ ul, li {
 	width: 132px;
 	height: 35px;
 	top: 24px;
-	left: 40px;
 	background: #222;
 	transition: all .2s;
 }
