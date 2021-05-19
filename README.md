@@ -21,6 +21,27 @@ class 子クラス extends 親クラス {
   }
 }
 ```
+### 実際の例
+子クラスのコンストラクタ内の「super()」では、その部分で親クラスのコンストラクタを呼び出している。
+そのため、親クラスのコンストラクタが引数を受け取る場合には、「super」の後ろの丸括弧「( )」に引数を渡す必要がある。
+例では親クラスのコンストラクタを呼び出したあとに、「ccc」プロパティを追加している。
+```
+class 親クラス {
+  constructor(aaa, bbb) {
+  this.aaa = aaa;
+  this.bbb = bbb;
+  }
+}
+
+↓ オーバーライド ↓
+
+class 子クラス extends 親クラス {
+  constructor(aaa, bbb, ccc) {
+  super(aaa, bbb)
+  this.ccc = ccc;
+  }
+}
+```
 
 
 
