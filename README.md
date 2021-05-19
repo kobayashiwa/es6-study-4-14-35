@@ -17,7 +17,7 @@ class 親クラス {
 class 子クラス extends 親クラス {
   constructor() {
   super()　/** 1行目にsuper()が必要
-  子クラスのコンストラクタの処理
+  /** 子クラスのコンストラクタの処理
   }
 }
 ```
