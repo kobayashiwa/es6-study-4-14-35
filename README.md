@@ -43,31 +43,19 @@ class 子クラス extends 親クラス {
 }
 ```
 
-
-
-
-
-
-
-
-
-
-
 ## コーディングトレーニング
-「ハウスM21」のレイアウト構造をレスポンシブで写経する。
+「ファンプレックス株式会社」のレイアウト構造をレスポンシブで写経する。
 
 #### サイト構造
 - header > logo - nav/toggle
-- main > section（p-index__mainVisual） - section（p-index__event） - section（p-index__news） - section（p-index__brand） - section（p-index__voice） - section（footer__own__wrap） - section（p-index__exhibition） - section（p-index__works）
+- main > section（top-mv） - section（top-about） - section（top-service） - section（top-recruit） - section（top-recruit）
 - footer
-- aside(※smartphoneのみ)
 
 #### ブレイクポイント
-- desktop（1200px ↑）
-- tablet（1199px ↓）
-- smartDevice（1023px ↓）
+- desktop（768px ↑）
+- tablet（---）
+- smartDevice（767px ↓）
 
 ## チャレンジ
 - ハンバーガーメニューに画像やSVGを使わずcssで描画する
-- ヘッダーを上部固定にする
-- スマホビューの時だけasideを表示し、ページ下部に固定する
+- ヘッダーをスクロール開始でcssを切り替えて上部固定にする
