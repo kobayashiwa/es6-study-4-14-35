@@ -288,6 +288,11 @@ main {
 	height: 40vw;
 	background: hsl(214, 97%, 23%, 0.3);
 }
+.top-recruit {
+	width: 100%;
+	height: 10vw;
+	background: hsl(214, 97%, 23%, 0.4);
+}
 
 /** aside **/
 aside {
