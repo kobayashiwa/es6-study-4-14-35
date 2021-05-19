@@ -119,6 +119,7 @@ nav ul li a {
 	line-height: 92px;
 	padding: 0 10px;
 	height: 100%;
+	color: #fff;
 	transition: all .5s;
 }
 nav ul li.navBox a {
