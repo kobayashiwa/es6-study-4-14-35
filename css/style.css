@@ -89,13 +89,10 @@ nav ul li {
 
 
 
-nav ul li.navBox a span {
-	display: block;
-	padding: 3px 0;
-	color: #fff;
-	font-size: 11px;
-	text-align: center;
-}
+
+
+
+
 nav ul li.phoneNum {
 	background: #0E304C;
 }
