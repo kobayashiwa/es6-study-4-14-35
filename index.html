@@ -55,6 +55,23 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 
     <script>
+        
+        // スクロール時に実行する
+        $(window).scroll(function(){
+            // top-headerの高さを取得する
+            let mainVisualHeight = $(".top-header").height();
+            // スクロール量の取得
+            let scroll = $(this).scrollTop();
+            // スクロール量がtop-headerの高さより大きければclassを付与する
+            if ( scroll > mainVisualHeight){
+                $(".top-header").addClass("bisible");
+            }
+            // スクロール量がtop-headerの高さより小さければ特定のclassを消す
+            else {
+                $(".top-header").removeClass("bisible");
+            }
+        });
+
         $(function() {
             $('.toggle').click(function() {
                 $(this).toggleClass('active');
