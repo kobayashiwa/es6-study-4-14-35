@@ -95,26 +95,6 @@ nav ul li {
 	height: 100%;
 	padding-left: 30px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 nav ul li a {
 	display: inline-block;
 	font-size: 14px;
@@ -124,8 +104,30 @@ nav ul li a {
 	color: #fff;
 	transition: all .5s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .top-header.bisible nav ul li a {
 	color: #495057;
+	padding: 35px 0 0 0;
 }
 nav ul li a span {
 	display: block;
