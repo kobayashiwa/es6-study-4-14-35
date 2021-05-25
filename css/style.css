@@ -145,6 +145,9 @@ nav ul li a span.ja {
 	.in nav {
 		display: none;
 	}
+	.toggle, .toggle span {
+		display: inline-block;
+	}
 
 
 
@@ -176,32 +179,27 @@ nav ul li a span.ja {
 	
 	
 	
-	.toggle, .toggle span {
-		display: inline-block;
-	}
-
-
-
-
-
-
-
-
-
-
 	
 	.toggle {
-		display: block;
 		position: fixed;
 		top: 33px;
 		right: 24px;
 		width: 32px;
 		height: 21px;
 		z-index: 3;
+		background: none;
+		border: none;
 		appearance: none;
 		cursor: pointer;
-		transition: .6s cubic-bezier(.68, -.5, .32, 1.6);
-	}
+	  }
+
+
+
+
+
+
+
+
 	.toggle:focus:not(:focus-visible) {
 		outline: none;
 	}
