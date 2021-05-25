@@ -150,12 +150,8 @@ nav ul li a span.ja {
 
 
 
-nav ul li.navBox .navIcon {
-	width: auto;
-	height: 20px;
-	margin: 14px 0 6px 0;
-	text-align: center;
-}
+
+
 nav ul li.navBox .navIcon img {
 	height: 100%;
 }
@@ -167,6 +163,11 @@ nav ul li a:hover {
 	display: none;
 }
 @media screen and (max-width: 1199px) {
+	.top-header.bisible .in {
+		padding: 0 40px;
+	}
+}
+@media screen and (max-width: 767px) {
 	.top-header {
 		height: 70px;
 	}
