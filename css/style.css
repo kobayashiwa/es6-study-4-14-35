@@ -79,6 +79,15 @@ ul, li {
 	top: 50%;
 	transform: translateY(-50%);
 }
+.top-header.bisible .top-logo {
+	display: none;
+}
+.top-header .scroll-logo {
+	display: none;
+}
+.top-header.bisible .scroll-logo {
+	display: block;
+}
 .head-logo img {
 	width: 100%;
 }
@@ -104,31 +113,32 @@ nav ul li a {
 	color: #fff;
 	transition: all .5s;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .top-header.bisible nav ul li a {
 	color: #495057;
 	padding: 35px 0 0 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav ul li a span {
 	display: block;
 	text-align: center;
