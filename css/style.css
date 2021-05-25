@@ -121,37 +121,35 @@ nav ul li a span {
 	display: block;
 	text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 nav ul li a span.ja {
 	font-size: 10px;
 	font-weight: 300;
 }
-nav ul li.navBox a {
-	line-height: 1;
-	padding: 0 12px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav ul li.navBox .navIcon {
 	width: auto;
 	height: 20px;
