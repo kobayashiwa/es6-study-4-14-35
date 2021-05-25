@@ -65,11 +65,11 @@
             let scroll = $(this).scrollTop();
             // スクロール量がtop-headerの高さより大きければclassを付与する
             if ( scroll > mainVisualHeight){
-                $(".top-header").addClass("bisible");
+                $(".top-header, .toggle").addClass("bisible");
             }
             // スクロール量がtop-headerの高さより小さければ特定のclassを消す
             else {
-                $(".top-header").removeClass("bisible");
+                $(".top-header, .toggle").removeClass("bisible");
             }
         });
 

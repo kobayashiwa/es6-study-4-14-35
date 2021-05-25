@@ -137,6 +137,11 @@ nav ul li a span.ja {
 	.top-header {
 		height: 87px;
 	}
+	.head-logo {
+		top: 50%;
+		left: 24px;
+		transform: translateY(-50%);
+	}
 
 
 
@@ -166,11 +171,7 @@ nav ul li a span.ja {
 
 
 	
-	.head-logo {
-		top: 50%;
-		left: 24px;
-		transform: translateY(-50%);
-	}
+	
 	.in nav {
 		display: none;
 	}
