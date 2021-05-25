@@ -150,12 +150,7 @@ nav ul li a span.ja {
 
 
 
-
-
-nav ul li a:hover {
-	color: #212121;
-	background: #edeff1;
-}
+ 
 .toggle, .toggle-menu {
 	display: none;
 }
@@ -166,7 +161,8 @@ nav ul li a:hover {
 }
 @media screen and (max-width: 767px) {
 	.top-header {
-		height: 70px;
+		height: 87px;
+		background: #111;
 	}
 	.head-logo {
 		top: 13px;
