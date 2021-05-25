@@ -152,9 +152,6 @@ nav ul li a span.ja {
 
 
 
-nav ul li.navBox .navIcon img {
-	height: 100%;
-}
 nav ul li a:hover {
 	color: #212121;
 	background: #edeff1;
@@ -181,6 +178,17 @@ nav ul li a:hover {
 	.toggle, .toggle span {
 		display: inline-block;
 	}
+
+
+
+
+
+
+
+
+
+
+	
 	.toggle {
 		display: block;
 		position: fixed;
