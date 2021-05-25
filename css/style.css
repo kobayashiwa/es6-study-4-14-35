@@ -57,7 +57,7 @@ ul, li {
 }
 .top-header.bisible {
 	height: 90px;
-	background: #111;
+	background: #fff;
 }
 .in {
 	width: 100%;
@@ -117,32 +117,33 @@ nav ul li a {
 	color: #495057;
 	padding: 35px 0 0 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 nav ul li a span {
 	display: block;
 	text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav ul li a span.ja {
 	font-size: 10px;
 	font-weight: 300;
