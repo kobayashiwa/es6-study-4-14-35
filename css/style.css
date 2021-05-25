@@ -142,6 +142,9 @@ nav ul li a span.ja {
 		left: 24px;
 		transform: translateY(-50%);
 	}
+	.in nav {
+		display: none;
+	}
 
 
 
@@ -172,9 +175,7 @@ nav ul li a span.ja {
 
 	
 	
-	.in nav {
-		display: none;
-	}
+	
 	.toggle, .toggle span {
 		display: inline-block;
 	}
@@ -211,6 +212,9 @@ nav ul li a span.ja {
 		background: #fff;
 		border-radius: 4px;
 		transition: .3s .2s;
+	}
+	.toggle.bisible span {
+		background: #495057;
 	}
 	.toggle span:nth-of-type(1) {
 		top: 0;
