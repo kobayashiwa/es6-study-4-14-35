@@ -125,6 +125,9 @@ nav ul li a span.ja {
 	font-size: 10px;
 	font-weight: 300;
 }
+.toggle, .toggle-menu {
+	display: none;
+}
 
 
 
@@ -151,9 +154,7 @@ nav ul li a span.ja {
 
 
  
-.toggle, .toggle-menu {
-	display: none;
-}
+
 @media screen and (max-width: 1199px) {
 	.top-header.bisible .in {
 		padding: 0 40px;
@@ -165,8 +166,9 @@ nav ul li a span.ja {
 		background: #111;
 	}
 	.head-logo {
-		top: 13px;
-		left: 20px;
+		top: 50%;
+		left: 24px;
+		transform: translateY(-50%);
 	}
 	.in nav {
 		display: none;
