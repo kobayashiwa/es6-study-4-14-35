@@ -105,9 +105,9 @@ nav ul li {
 
 
 
-nav ul li.contact {
-	background: #368AC0;
-}
+
+
+
 nav ul li.modelHouse {
 	background: #F89F11;
 }
@@ -119,6 +119,9 @@ nav ul li a {
 	height: 100%;
 	color: #fff;
 	transition: all .5s;
+}
+.top-header.bisible nav ul li a {
+	color: #495057;
 }
 nav ul li a span {
 	display: block;
