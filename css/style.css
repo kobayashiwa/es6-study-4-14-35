@@ -152,8 +152,8 @@ nav ul li a span.ja {
 		position: fixed;
 		top: 33px;
 		right: 24px;
-		width: 32px;
-		height: 21px;
+		width: 46px;
+		height: 27px;
 		z-index: 3;
 		background: none;
 		border: none;
@@ -225,6 +225,11 @@ nav ul li a span.ja {
 		display: block;
 		padding: 90px 60px;
 	}
+	.toggle-menu nav ul {
+		height: auto;
+		max-width: 500px;
+		margin: 0 auto;
+	}
 
 
 
@@ -247,11 +252,7 @@ nav ul li a span.ja {
 
 
 	
-	.toggle-menu nav ul {
-		height: auto;
-		max-width: 500px;
-		margin: 0 auto;
-	}
+	
 	.toggle-menu nav ul li {
 		flex-direction: column;
 		width: 100%;
