@@ -198,7 +198,7 @@ nav ul li a span.ja {
 		transition-delay: .3s;
 	}
 	.toggle span:nth-of-type(2) {
-		top: 20px;
+		top: 9px;
 		left: 0;
 		transform-origin: 50% 50%;
 		transition-delay: .3s;
@@ -220,32 +220,33 @@ nav ul li a span.ja {
 	.toggle.active span:nth-of-type(-n+3) {
 		transform: scaleX(0);
 		transition-delay: 0s;
-	  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	}
 	.toggle-menu nav {
 		display: block;
 		padding: 90px 60px;
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 	.toggle-menu nav ul {
 		height: auto;
 		max-width: 500px;
