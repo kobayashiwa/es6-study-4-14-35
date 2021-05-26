@@ -166,6 +166,14 @@ nav ul li a span.ja {
 	.toggle::before, .toggle::after {
 		content: '';
 	}
+	.toggle::before, .toggle::after, .toggle span {
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		background: #fff;
+		border-radius: 2px;
+		transition: .2s;
+	}
 
 
 
@@ -203,17 +211,8 @@ nav ul li a span.ja {
 
 
 
-
-
-
-	.toggle span {
-		position: absolute;
-		width: 100%;
-		height: 2px;
-		background: #fff;
-		border-radius: 4px;
-		transition: .3s .2s;
-	}
+	
+	
 	.toggle.bisible span {
 		background: #495057;
 	}
