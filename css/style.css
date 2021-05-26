@@ -184,6 +184,13 @@ nav ul li a span.ja {
 		transform: rotate(45deg) scaleX(0);
 		transition-delay: 0s;
 	}
+	.toggle::after {
+		bottom: 3px;
+		left: 8px;
+		transform-origin: 0 100%;
+		transform: rotate(-45deg) scaleX(0);
+		transition-delay: 0s;
+	}
 
 
 
@@ -222,12 +229,6 @@ nav ul li a span.ja {
 
 
 	
-
-	
-	.toggle span:nth-of-type(1) {
-		top: 0;
-		left: 0;
-	}
 	.toggle span:nth-of-type(2) {
 		top: 9px;
 		left: 0;
