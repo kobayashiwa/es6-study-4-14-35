@@ -207,6 +207,7 @@ nav ul li a span.ja {
 	.toggle span:nth-of-type(3) {
 		right: 0;
 		bottom: 0;
+		width: 50%;
 		transform-origin: 100% 0;
 		transition-delay: .3s;
 	}
