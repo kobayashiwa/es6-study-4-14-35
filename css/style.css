@@ -226,6 +226,7 @@ nav ul li a span.ja {
 	.toggle-menu nav {
 		display: block;
 		padding: 90px 60px;
+		background-image: url(../img/header-menu-bg.png);
 	}
 	.toggle-menu nav ul {
 		height: auto;
@@ -243,25 +244,6 @@ nav ul li a span.ja {
 		padding: 24px 15px 24px 24px;
 		position: relative;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-	
-	
-	
 	.toggle-menu nav ul li a::before {
 		content: "";
 		position: absolute;
@@ -274,6 +256,26 @@ nav ul li a span.ja {
     	top: 50%;
     	margin-top: -3px;
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
 	.toggle-menu {
 		display: block;
 		position: fixed;
