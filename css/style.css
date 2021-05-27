@@ -177,6 +177,9 @@ nav ul li a span.ja {
 	.toggle.bisible::before, .toggle.bisible::after, .toggle.bisible span {
 		background: #495057;
 	}
+	.toggle.bisible.active::before, .toggle.bisible.active::after, .toggle.bisible.active span {
+		background: #fff;
+	}
 	.toggle::before {
 		top: -3px;
 		left: 8px;
@@ -272,30 +275,31 @@ nav ul li a span.ja {
 		overflow: auto;
 		-webkit-overflow-scrolling: touch;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-	
-	
-	
-	
-	
-	
 	.toggle-menu.active {
 		opacity: 1;
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
 	.toggle-menu.active nav.bisible {
 		opacity: 1;
 	}
