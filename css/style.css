@@ -243,7 +243,9 @@ nav ul li a span.ja {
 
 
 
-
+	.toggle.bisible.active {
+		background: #888;
+	}
 
 
 
