@@ -272,6 +272,10 @@ nav ul li a span.ja {
 		text-align: left;
 		font-size: 32px;
 	}
+	nav ul li a span.ja {
+		font-size: 16px;
+		font-weight: 300;
+	}
 	.toggle-menu nav ul li a {
 		color: #fff;
 		display: inline-block;
