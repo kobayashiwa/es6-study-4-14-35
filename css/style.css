@@ -238,7 +238,6 @@ nav ul li a span.ja {
 	.toggle-menu nav ul li {
 		flex-direction: column;
 		width: 100%;
-		border-bottom: 1px solid #ccc;
 	}
 	.toggle-menu nav ul li a {
 		text-align: left;
@@ -266,13 +265,13 @@ nav ul li a span.ja {
 	.toggle-menu.active {
 		opacity: 1;
 	}
-	.toggle-menu.active nav ul li {
+	.toggle-menu nav ul li {
 		margin: 0;
 	}
-	.toggle-menu.active nav ul li a span {
+	.toggle-menu nav ul li a span {
 		text-align: left;
 	}
-	.toggle-menu.active nav ul li a {
+	.toggle-menu nav ul li a {
 		color: #fff;
 		display: inline-block;
 		width: 100%;
@@ -301,8 +300,6 @@ nav ul li a span.ja {
 	
 	
 
-@media screen and (max-width: 1023px) {	  
-}
 /** main **/
 main {
 	width: 100%;
