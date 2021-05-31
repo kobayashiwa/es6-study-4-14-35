@@ -228,7 +228,7 @@ nav ul li a span.ja {
 	}
 	.toggle-menu nav {
 		display: block;
-		padding: 90px 60px;
+		padding: 90px 0;
 	}
 	.toggle-menu nav ul {
 		height: auto;
@@ -245,18 +245,6 @@ nav ul li a span.ja {
 		line-height: 1;
 		padding: 24px 15px 24px 24px;
 		position: relative;
-	}
-	.toggle-menu nav ul li a::before {
-		content: "";
-		position: absolute;
-    	left: 4px;
-    	display: block;
-    	width: 6px;
-    	height: 6px;
-    	background-color: #0091b9;
-    	border-radius: 100%;
-    	top: 50%;
-    	margin-top: -3px;
 	}
 	.toggle-menu {
 		display: block;
@@ -278,33 +266,29 @@ nav ul li a span.ja {
 	.toggle-menu.active {
 		opacity: 1;
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	
-	
-	
-	
-	
-	
-
 	.toggle-menu.active nav ul li {
 		margin: 0;
 	}
-	.toggle-menu.active nav ul li a:hover {
-		background: none;
-	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
 	.toggle-menu.active nav ul li a {
 		color: #000;
 		display: inline-block;
