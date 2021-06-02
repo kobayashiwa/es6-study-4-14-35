@@ -108,6 +108,9 @@
                 super(name, age);
                 this.breed = breed;
             }
+            info() {
+                this.greet();
+            }
         }
         const dog = new Dog(`レオ`, 4, `チワワ`);
         dog.info();
