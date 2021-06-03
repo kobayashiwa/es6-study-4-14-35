@@ -132,9 +132,12 @@
             greet(){
                 console.log("広告ビジネス・メディア");
             }
+            info(){
+                this.greet();
+            }
         }
         const advertising = new Advertising();
-        advertising.greet();
+        advertising.info();
 
     </script>
 
