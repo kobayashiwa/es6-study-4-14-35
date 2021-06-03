@@ -122,13 +122,20 @@
         }
         const dog = new Dog(`レオ`, 4, `チワワ`);
         dog.info();
-
+        console.log("----------");
+        
         class Advertising {
-            constructor(bissiness, media) {
+            constructor(bissiness, vol) {
                 this.bissiness = bissiness;
-                this.media = media;
+                this.vol = vol;
+            }
+            greet(){
+                console.log("広告ビジネス・メディア");
             }
         }
+        const advertising = new Advertising();
+        advertising.greet();
+
     </script>
 
 </html>
