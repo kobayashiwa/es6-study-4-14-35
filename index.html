@@ -137,8 +137,9 @@
                 console.log(`日本の${this.bissiness}の最大の課題は何だと思いますか？ 「Advertising Week Asia2021」登壇者への一問一答【${this.vol}】`);
             }
         }
-        const advertising = new Advertising(`広告メディアビジネス`, 1);
-        advertising.info();
+        class Senden extends Advertising {}
+        const senden = new Senden(`広告メディアビジネス`, 1);
+        senden.info();
 
     </script>
 
