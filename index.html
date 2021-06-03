@@ -137,7 +137,11 @@
                 console.log(`日本の${this.bissiness}の最大の課題は何だと思いますか？ 「Advertising Week Asia2021」登壇者への一問一答【${this.vol}】`);
             }
         }
-        class Senden extends Advertising {}
+        class Senden extends Advertising {
+            constructor(bissiness, vol) {
+                super(bissiness, vol);
+            }
+        }
         const senden = new Senden(`広告メディアビジネス`, 1);
         senden.info();
 
